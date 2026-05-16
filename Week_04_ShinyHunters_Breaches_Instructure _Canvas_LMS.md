@@ -1,7 +1,7 @@
 # ShinyHunters Breaches Instructure Canvas LMS
 
 ## 1) Executive Summary
-The prominent threat actor group **ShinyHunters** has successfully compromised Instructure, the parent company behind the Canvas Learning Management System (LMS). The breach resulted in the unauthorized exfiltration of sensitive user metadata, including full names, email addresses, student identification numbers, and localized private messages between Canvas platform users. Instructure has formally acknowledged the security incident. Concurrently, the adversaries initiated a public extortion campaign on May 3, 2026, threatening data exposure.
+The hacking group ShinyHunters has compromised the Instructure company behind  Canvas Learning Management System (LMS) , the breach exposed  sensitive user information including names, email addresses, student ID numbers and some private messages between Canvas users .The company officially confirmed the incident, while the attackers launched a public extortion campaign on May 3, 2026.
 
 ---
 
@@ -19,8 +19,8 @@ The prominent threat actor group **ShinyHunters** has successfully compromised I
 | Tactic | Technique | ID |
 | :--- | :--- | :--- |
 | **Initial Access** | Valid Accounts | T1078 |
-| **Collection** | Data from Information Repositories | T1213 |
-| **Exfiltration** | Exfiltration Over Web Service | T1567 |
+| **Impact** | External Defacement | T1491.002  |
+| **Collection** | Data from Information Repositories | T1213  |
 
 ---
 
@@ -41,4 +41,6 @@ The prominent threat actor group **ShinyHunters** has successfully compromised I
 
 ---
 ## 6) Analyst Notes & Strategic Takeaways
-This incident underscores the inherent risks associated with centralizing large-scale student Personal Identifiable Information (PII) within supply-chain educational software. Organizations must shift-left by treating third-party LMS providers as extended perimeters, enforcing robust conditional access policies, and continuous session monitoring to minimize the blast radius of compromised corporate identities.
+
+This incident highlights the trade-off between providing scalable and extensible service features and the increased attack surface they introduce. It emphasizes the importance of integrating security considerations early in the design phase to reduce potential exploitation risks.
+
